@@ -11,7 +11,7 @@
   <h2>Clock</h2>
 
   <div ng-controller="ClockController as clock" class="clock-box">
-    <p>{{ clock.time | date:'HH:mm:ss' }}</p>
+    <span class="clock-text">{{ clock.time | date:'HH:mm:ss' }}</span>
   </div>
 </body>
 </html>
