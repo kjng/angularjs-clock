@@ -10,8 +10,8 @@
 <body>
   <h2>Clock</h2>
 
-  <div ng-controller="ClockController as clock">
-    {{ clock.time | date:'HH:mm:ss' }}
+  <div ng-controller="ClockController as clock" class="clock-box">
+    <p>{{ clock.time | date:'HH:mm:ss' }}</p>
   </div>
 </body>
 </html>
